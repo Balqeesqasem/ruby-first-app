@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>First name:</strong>
+  <%= @frind.first_name %>
+</p>
+
+<p>
+  <strong>Last name:</strong>
+  <%= @frind.last_name %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @frind.email %>
+</p>
+
+<p>
+  <strong>Phone:</strong>
+  <%= @frind.phone %>
+</p>
+
+<%= link_to 'Edit', edit_frind_path(@frind), class:"btn btn-secondary" %> 
+<%= link_to 'Back', frinds_path, class:"btn btn-secondary" %>
